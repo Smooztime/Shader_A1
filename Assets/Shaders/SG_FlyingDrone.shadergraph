@@ -95,7 +95,11 @@
         }
     ],
     "m_GroupDatas": [],
-    "m_StickyNoteDatas": [],
+    "m_StickyNoteDatas": [
+        {
+            "m_Id": "ace41890dc4446eeb5365a891b97038e"
+        }
+    ],
     "m_Edges": [
         {
             "m_OutputSlot": {
@@ -1657,6 +1661,26 @@
     },
     "m_Space": 0,
     "m_PositionSource": 0
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.StickyNoteData",
+    "m_ObjectId": "ace41890dc4446eeb5365a891b97038e",
+    "m_Title": "Position Shader",
+    "m_Content": "I used the Time node multiply with Float to control object's moving speed. Next, Sine for oscillation thing. Create a direction for control the moving direction and add to position.",
+    "m_TextSize": 2,
+    "m_Theme": 0,
+    "m_Position": {
+        "serializedVersion": "2",
+        "x": -1640.0,
+        "y": 163.0,
+        "width": 773.0,
+        "height": 370.0
+    },
+    "m_Group": {
+        "m_Id": ""
+    }
 }
 
 {

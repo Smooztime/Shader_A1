@@ -134,7 +134,11 @@
         }
     ],
     "m_GroupDatas": [],
-    "m_StickyNoteDatas": [],
+    "m_StickyNoteDatas": [
+        {
+            "m_Id": "ebc768b26d47407aa58b6c6e22cce18e"
+        }
+    ],
     "m_Edges": [
         {
             "m_OutputSlot": {
@@ -4160,6 +4164,26 @@
         "e31": 0.0,
         "e32": 0.0,
         "e33": 1.0
+    }
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.StickyNoteData",
+    "m_ObjectId": "ebc768b26d47407aa58b6c6e22cce18e",
+    "m_Title": "Noise Shader",
+    "m_Content": "I added the simple noise node that used tilling to turned the noise to be a random moving down line and added a remap node to make it more contrast to get an alpha. Then I created a Fresnel effect to got something kind of Rim light of the object. Combined it together with the breathing effect by Sine node. Alpha clipping and made it glow.\n",
+    "m_TextSize": 2,
+    "m_Theme": 0,
+    "m_Position": {
+        "serializedVersion": "2",
+        "x": -3152.0,
+        "y": -190.0,
+        "width": 788.696044921875,
+        "height": 489.5196533203125
+    },
+    "m_Group": {
+        "m_Id": ""
     }
 }
 

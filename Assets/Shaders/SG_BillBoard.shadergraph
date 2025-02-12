@@ -107,7 +107,11 @@
         }
     ],
     "m_GroupDatas": [],
-    "m_StickyNoteDatas": [],
+    "m_StickyNoteDatas": [
+        {
+            "m_Id": "5cc2a3ec9ef24d5fa7a1058b25a6c88a"
+        }
+    ],
     "m_Edges": [
         {
             "m_OutputSlot": {
@@ -1172,6 +1176,26 @@
     "m_Value": 6.760000228881836,
     "m_DefaultValue": 1.0,
     "m_Labels": []
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.StickyNoteData",
+    "m_ObjectId": "5cc2a3ec9ef24d5fa7a1058b25a6c88a",
+    "m_Title": "Tiling and Offset Shader",
+    "m_Content": "Use time to control offset speed and create a sample texture. Because I rotate my model that made my texture shown with wrong rotation, So I created the rotation node, changed the Unit to Degrees and put it to the Tiling and Offset to rotate my UV. Then mask the texture color to make it transparent. Use color replacement to chang the original color to another one and put the emission node that glow the color.",
+    "m_TextSize": 2,
+    "m_Theme": 0,
+    "m_Position": {
+        "serializedVersion": "2",
+        "x": -1713.0,
+        "y": 744.0,
+        "width": 960.0906982421875,
+        "height": 449.99267578125
+    },
+    "m_Group": {
+        "m_Id": ""
+    }
 }
 
 {
